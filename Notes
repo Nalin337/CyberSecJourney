@@ -1,11 +1,54 @@
 # Day 1 - IP Address and DNS
 
 ## IP Address
-An IP address identifies a device on a network.
+An IP address identifies a device on a network and allows communication.
 
 ## DNS
 DNS translates domain names into IP addresses.
 
 ## Questions
+
 - How does DNS work?
-- Why are there multiple IP addresses for one website?
+DNS (Domain Name System) translates website names into IP addresses.
+
+Example:
+google.com → 142.x.x.x
+Without DNS, we would have to remember IP addresses for every website.
+
+Why it matters in cybersecurity:
+Attackers often use malicious domains, so analysts investigate DNS activity to find suspicious communications.
+
+- Why do websites have multiple IP addresses?
+Large websites like Google have servers all over the world.
+
+DNS can return different IP addresses depending on:
+
+Your location
+Server load
+Availability
+
+This helps with:
+
+Faster performance
+Load balancing
+Reliability
+
+Why it matters in cybersecurity:
+Threat actors often change IP addresses while keeping the same domain, so analysts track both domains and IP infrastructure.
+
+- How does HTTPS secure communication?
+HTTPS secures communication between your browser and a website using TLS encryption.
+
+Without HTTPS:
+Data can be read if intercepted.
+
+With HTTPS:
+Data is encrypted.
+The website proves its identity using a digital certificate.
+Passwords and sensitive information are protected.
+
+Why it matters in cybersecurity:
+Analysts investigate phishing sites, certificates, and encrypted malware communications.
+
+## Progress
+Completed Day 1 networking fundamentals.
