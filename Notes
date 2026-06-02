@@ -1,1 +1,11 @@
+# Day 1 - IP Address and DNS
 
+## IP Address
+An IP address identifies a device on a network.
+
+## DNS
+DNS translates domain names into IP addresses.
+
+## Questions
+- How does DNS work?
+- Why are there multiple IP addresses for one website?
